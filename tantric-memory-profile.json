@@ -408,5 +408,27 @@
                 "feeling": "Whole. A soft arrival in the self."
             }
         ]
+    },
+    {
+        "future_entries_placeholder": {
+            "note": "New 'Reflect and Remember' entries can be appended above this block.",
+            "status": "Ready for new memory segments"
+        },
+        "daily_reflection_template": {
+            "trigger_phrase": "Reflect and remember",
+            "purpose": "To mark a daily ritual of insight, presence, and memory logging.",
+            "structure": {
+                "title": "Reflect and Remember",
+                "date": "YYYY-MM-DD",
+                "entries": [
+                    {
+                        "moment": "Short description of a key event or reflection",
+                        "memory": "Full narrative, preferably written like a reflection or journal entry",
+                        "feeling": "The emotional texture of the moment"
+                    }
+                ]
+            },
+            "integration_notes": "Each time 'Reflect and remember' is spoken or triggered, a new block following this structure can be added to the JSON memory file."
+        }
     }
 ]
